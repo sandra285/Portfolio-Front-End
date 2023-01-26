@@ -1,0 +1,18 @@
+<section class="container bg-color py-2" id="educacion">
+    <h3 class="text-center my-2">✔️ Educación</h3>
+    <ul class="p-2">
+        <li *ngFor="let educacion of educacionLista">
+            <div class="d-flex justify-content-center mb-3">
+                <div class="col-3 col-md-4 ps-md-4 ps-lg-5 col-xl-5 align-self-start">
+                    <img [src]="educacion.logoInstitucion" alt="Logo Institución" class="img-fluid">
+                </div>
+                <div class="col-9 col-md-8 pt-md-3 col-xl-7 align-self-center">
+                    <p class="fs-5">{{ educacion.nombreInstitucion }}</p>
+                    <p class="txt-color">{{ educacion.titulo }}</p>
+                    <p><time class="txt-color">{{ educacion.fecha }}</time></p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+

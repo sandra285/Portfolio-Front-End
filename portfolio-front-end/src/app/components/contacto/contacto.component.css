@@ -1,0 +1,27 @@
+.container {
+    border-radius: 25px; 
+    position: relative;
+    top:-10px;
+}
+
+.bg-btn{
+    background-color: var(--bg-btn);
+}
+
+.bg-btn:hover{
+    background-color: var(--bg-btn-hover);
+}
+
+/* Media queries */
+
+@media (min-width: 768px){
+    .container {
+        top: 70px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        top: 70px;
+    }
+}

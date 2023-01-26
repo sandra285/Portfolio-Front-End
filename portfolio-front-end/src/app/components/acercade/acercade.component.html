@@ -1,0 +1,35 @@
+<section class="container">
+    <div class="row">
+        <div class="col-12 col-md-3">
+            <img [src]="miPortfolio.imgPerfil" alt="Foto perfil" class="img-fluid" id="fotoperfil">
+        </div>
+        
+        <div class="col-12 col-md-9 my-2 py-2 bg-color misDatos">
+            <h2><i>{{ miPortfolio.name }}</i></h2>
+            <h3 class="txt-color">{{ miPortfolio.titulo1 }}</h3>
+            <h3 class="txt-color">{{ miPortfolio.titulo2 }}</h3>
+        
+        <div class="col-12 col-md-10 offset-md-1 col-lg-10 offset-lg-1 ">
+            <!-- <a href="#sobremi" class="btn btn-sm bg-btn text-white me-1 mb-1"><small>Sobre mí</small></a> -->
+            <a href="#experiencia" class="btn btn-sm bg-btn text-white me-1 mb-1"><small>Experiencia</small></a>
+            <a href="#educacion" class="btn btn-sm bg-btn text-white me-1 mb-1"><small>Educación</small></a>
+            <a href="#habilidades" class="btn btn-sm bg-btn text-white me-1 mb-1"><small>Habilidades</small></a>
+            <a href="#proyectos" class="btn btn-sm bg-btn text-white me-1 mb-1"><small>Proyectos</small></a>
+            <a href="#contacto" class="btn btn-sm bg-btn text-white mb-1"><small>Contacto</small></a>
+        </div>
+        </div>
+    </div>
+    
+    <div class="row" id="sobremi">
+        <div class="col-12 my-2 py-2 bg-color acercaDe">
+            <h3 class="">✔️ Sobre mí</h3>
+            <p class="txt-color"> Iniciándome en el mundo de la programación. <br> Mi objetivo es capacitarme constantemente y crecer en el ámbito profesional, desarrollando mis habilidades tanto duras como blandas.</p>
+            <div>
+                <img [src]="miPortfolio.logoUbicacion" alt="Ubicación">
+                <span ><small class="txt-color ms-2">{{ miPortfolio.ubicacion }}</small></span>
+            </div>
+
+        </div>
+    </div>
+</section>
+

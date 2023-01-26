@@ -1,0 +1,19 @@
+.container {
+    border-radius: 25px; 
+    position: relative;
+    top: -50px;
+}
+
+/* Media queries */
+
+@media (min-width: 768px){
+    .container {
+        top: 30px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        top: 5px;
+    }
+}

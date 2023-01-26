@@ -1,0 +1,91 @@
+.container{
+    text-align: center;
+   
+}
+
+#fotoperfil {
+    width: 35%; 
+    border-radius: 50%;
+    position: relative;
+    top:-100px;
+  
+}
+
+.misDatos {
+    border-radius: 25px; 
+    position: relative;
+    top:-100px;
+  
+}
+
+.acercaDe {
+    border-radius: 25px;
+    position: relative;
+    top:-100px;
+    
+}
+
+.bg-btn{
+    background-color: var(--bg-btn);
+}
+
+.bg-btn:hover{
+    background-color: var(--bg-btn-hover);
+}
+
+/* Media queries */
+
+@media (min-width: 768px){
+
+    #fotoperfil {
+        width: 100%; 
+        top:-40px;
+    }
+
+    .misDatos {
+        top:0px;
+        height: 50%;
+    }
+
+    .acercaDe {
+        top:0;
+    }
+}
+
+@media (min-width: 992px){
+
+    .misDatos {
+        top: 25px;
+    }
+    .acercaDe {
+        top: -30px;
+    }
+}
+
+@media (min-width: 1200px){
+
+    #fotoperfil {
+        top:-110px;
+    }
+
+    .misDatos {
+        top: 25px;
+    }
+
+    .acercaDe {
+        top: -80px;
+    }
+} 
+
+@media (min-width: 1400px){
+    .acercaDe {
+        top: -90px;
+    }
+} 
+
+
+
+
+
+
+

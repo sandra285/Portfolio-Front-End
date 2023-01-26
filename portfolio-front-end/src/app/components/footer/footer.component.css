@@ -1,0 +1,14 @@
+footer {
+    background-color: var(--bg-navbar-color);
+    position:relative;
+    top:30px;
+}
+
+/* Media queries */
+
+@media (min-width: 768px){
+    footer {
+        top:90px;
+    }
+}
+

@@ -1,0 +1,148 @@
+{
+    "logoAP": "../assets/Logo-AP.png",
+    "logoIN": "../assets/linkedin.png",
+    "logoGH": "../assets/github.png",
+    "login": "../assets/login.png",
+    "name": "Fabrizi, Sandra Marianela",
+    "imgPerfil": "../assets/perfil.jpg",
+    "titulo1": "Licenciada en Estadística",
+    "titulo2": "Full Stack Developer Jr.",
+    "logoUbicacion": "../assets/pin-de-ubicacion.png",
+    "ubicacion": "Cañada de Gómez, Santa Fe, Argentina",
+
+    "experiencia": [
+        {
+            "logoEmp": "../assets/Logo-SC-2.jpg",
+            "nombreEmpresa": "Simplicity SRL",
+            "areaEmpresa": "Desarrollo de Software",
+            "puesto": "Full Stack Developer Jr.",
+            "fechaInicio": "Julio 2022",
+            "fechaFin": "Actualidad",
+            "tareas": "Desarrollo de sistemas de gestión a medida para empresas e instituciones. Soluciones integrales adaptadas para cada necesidad."
+        },
+        {
+            "logoEmp": "../assets/Logo-HSJ.jpg",
+            "nombreEmpresa": "Hospital Provincial San José",
+            "areaEmpresa": "Guardia",
+            "puesto": "Admisionista",
+            "fechaInicio": "Febrero 2016",
+            "fechaFin": "Febrero 2022",
+            "tareas": "Admisión e ingreso de pacientes para atención por guardia. Registro informático. Atención telefónica. Trabajo interdisciplinario."
+        },
+        {
+            "logoEmp": "../assets/Logo-RB.jpg",
+            "nombreEmpresa": "Rosario Bus S.A",
+            "areaEmpresa": "Programación",
+            "puesto": "Programación de Horarios",
+            "fechaInicio": "Marzo 2015",
+            "fechaFin": "Junio 2015",
+            "tareas": "Planificación de los servicios de transporte de pasajeros (horarios, frecuencias, duraciones) por cada línea según las necesidades y requerimientos."
+        },
+        {
+            "logoEmp": "../assets/Logo-MR.jpg",
+            "nombreEmpresa": "Municipalidad de Rosario",
+            "areaEmpresa": "Trabajo Social",
+            "puesto": "Auxiliar estadístico",
+            "fechaInicio": "2013",
+            "fechaFin": "2014",
+            "tareas": "Elaboración de bases de datos. Interpretación de datos estadísticos. Elaboración de informes. Trabajo interdisciplinario."
+        },
+        {
+            "logoEmp": "../assets/Logo-MR.jpg",
+            "nombreEmpresa": "Secretaría de Salud Pública",
+            "areaEmpresa": "Dirección de Estadística",
+            "puesto": "Pasante",
+            "fechaInicio": "Octubre 2012",
+            "fechaFin": "Marzo 2014",
+            "tareas": "Tratamiento de la información referida a Atención Primaria de Salud, Accidentes de Tránsito en Vía Pública y Banco de Sangre de la ciudad de Rosario. Análisis estadístico. Elaboración de informes. Georreferenciación. Participación en Estudio de Factibilidad para la Utilización de la Vacuna contra Leptospirosis. Realización de encuestas y análisis de datos. Trabajo interdisciplinario."
+        }
+    ],
+
+    "educacion": [
+        {
+            "logoInstitucion": "../assets/Logo-Udemy.jpg",
+            "nombreInstitucion": "Udemy",
+            "titulo": "Universidad Angular - De Cero a Experto en Angular",
+            "fecha": "Diciembre 2022 - Febrero 2023"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-ME.jpg",
+            "nombreInstitucion": "Ministerio de Economía de la Nación Argentina",
+            "titulo": "Curso Argentina Programa - Programador Web Full Stack Jr.",
+            "fecha": "Octubre 2022 - Mayo 2023"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-PTR.jpg",
+            "nombreInstitucion": "Polo Tecnológico Rosario",
+            "titulo": "Curso de Python",
+            "fecha": "Octubre 2022 - Diciembre 2022"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-Udemy.jpg",
+            "nombreInstitucion": "Udemy",
+            "titulo": "Introducción a la Maquetación Web",
+            "fecha": "Septiembre 2022"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-AALV.jpg",
+            "nombreInstitucion": "Ministerio de Educación - Gobierno Ciudad de Buenos Aires",
+            "titulo": "Programa Codo a Codo - Curso Full Stack Python",
+            "fecha": "Agosto 2022 - Diciembre 2022"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-CP.jpg",
+            "nombreInstitucion": "Universidad de la Cuenca del Plata",
+            "titulo": "Curso Introductorio en PHP y MySQL",
+            "fecha": "Agosto 2022 - Octubre 2022"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-UNRaf.jpg",
+            "nombreInstitucion": "Universidad Nacional de Rafaela",
+            "titulo": "Curso de Introducción y Desarrollo de Aplicaciones Móviles",
+            "fecha": "Abril 2022 - Mayo 2022"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-Udemy.jpg",
+            "nombreInstitucion": "Udemy",
+            "titulo": "Aprende a crear tu web desde cero con HTML y CSS",
+            "fecha": "Abril 2022"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-UPCN.jpg",
+            "nombreInstitucion": "Unión del Personal Civil de la Nación - Seccional Santa Fe",
+            "titulo": "Estrategias Emocionales y Habilidades Sociales para la Atención al Ciudadano",
+            "fecha": "Marzo 2019"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-UNR.jpg",
+            "nombreInstitucion": "Facultad de Ciencias Económicas y Estadística",
+            "titulo": "Curso 'Manejo de Datos en Ensayos Clínicos'",
+            "fecha": "Septiembre 2015"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-UNR.jpg",
+            "nombreInstitucion": "Facultad de Ciencias Económicas y Estadística",
+            "titulo": "Curso 'Manejo de Grandes Bases de Datos y Nociones de Data Mining'",
+            "fecha": "Octubre 2014"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-UNR.jpg",
+            "nombreInstitucion": "Facultad de Ciencias Económicas y Estadística",
+            "titulo": "Curso 'Introducción al Lenguaje de Comandos SAS'",
+            "fecha": "Diciembre 2012"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-UNR.jpg",
+            "nombreInstitucion": "Facultad de Ciencias Económicas y Estadística",
+            "titulo": "Curso 'Importancia del uso de la Estadística'",
+            "fecha": "Octubre 2008"
+        },
+        {
+            "logoInstitucion": "../assets/Logo-UNR.jpg",
+            "nombreInstitucion": "Facultad de Ciencias Económicas y Estadística",
+            "titulo": "Licenciatura En Estadística",
+            "fecha": "Marzo 2007 - Abril 2016"
+        }
+    ]
+    
+}

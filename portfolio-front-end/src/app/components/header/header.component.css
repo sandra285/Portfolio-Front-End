@@ -1,0 +1,53 @@
+.navbar{
+    background-color: var(--bg-navbar-color);
+    height: 65px;
+    z-index: 1;
+}
+
+#logoAP {
+    width: 8rem;
+    opacity: 0.75;
+}
+
+#logoAP:hover {
+    opacity: 1;
+}
+
+.logosocial {
+    /* width: 35px; */
+    width: 2rem;
+    margin: 0 7px;
+    opacity: 0.75; 
+}
+
+.logosocial:hover {
+    opacity: 1; 
+}
+
+.bg-color{
+    background-color:var(--second-color);
+}
+
+
+/* Banner */
+.banner-image {
+    background-image: url('../../../assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    min-height: 50vh;
+}
+
+/* Media queries */
+
+@media (min-width: 768px){
+    .banner-image {
+        min-height: 70vh;
+    }
+}
+
+@media (min-width: 992px){
+    .banner-image {
+        min-height: 100vh;
+    }
+}

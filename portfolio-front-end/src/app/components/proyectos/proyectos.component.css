@@ -1,0 +1,43 @@
+.container {
+    border-radius: 25px; 
+    position: relative;
+    top:-30px;
+}
+
+article {
+    min-height: 300px;
+}
+
+.card-img {
+   opacity: 0.3;
+   min-height: 250px;
+}
+
+h5:hover {
+    border-bottom: 3px solid var(--bg-btn);
+}
+
+.bg-btn{
+    background-color: var(--bg-btn);
+}
+
+.bg-btn:hover{
+    background-color: var(--bg-btn-hover);
+}
+
+
+
+/* Media queries */
+
+@media (min-width: 768px){
+    .container {
+        top: 50px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        top: 40px;
+    }
+}
+

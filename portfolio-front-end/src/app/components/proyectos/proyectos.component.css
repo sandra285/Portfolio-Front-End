@@ -25,6 +25,11 @@ h5:hover {
     background-color: var(--bg-btn-hover);
 }
 
+.img-modal {
+    width:115%;
+}
+
+
 
 
 /* Media queries */
@@ -33,11 +38,25 @@ h5:hover {
     .container {
         top: 50px;
     }
+    .img-modal {
+        width:150%;
+    }
+    
+}
+
+@media (min-width: 992px){
+   
+    .img-modal {
+        width:175%;
+    }
 }
 
 @media (min-width: 1200px){
     .container {
         top: 40px;
+    }
+    .img-modal {
+        width:200%;
     }
 }
 

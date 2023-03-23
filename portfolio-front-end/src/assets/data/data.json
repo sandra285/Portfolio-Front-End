@@ -2,7 +2,7 @@
     "logoAP": "../assets/Logo-AP.png",
     "logoIN": "../assets/linkedin.png",
     "logoGH": "../assets/github.png",
-    "login": "../assets/login.png",
+    "login": "../assets/usuario.png",
     "name": "Fabrizi, Sandra Marianela",
     "imgPerfil": "../assets/perfil.jpg",
     "titulo1": "Licenciada en Estadística",
@@ -144,5 +144,4 @@
             "fecha": "Marzo 2007 - Abril 2016"
         }
     ]
-    
 }

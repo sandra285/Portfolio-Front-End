@@ -13,6 +13,10 @@ article {
    min-height: 250px;
 }
 
+a {
+    text-decoration: none;
+}
+
 h5:hover {
     border-bottom: 3px solid var(--bg-btn);
 }
@@ -28,9 +32,6 @@ h5:hover {
 .img-modal {
     width:115%;
 }
-
-
-
 
 /* Media queries */
 

@@ -2,27 +2,21 @@
     
     <h3 class="text-center my-2">✔️ Contacto</h3>
 
-    <div class="col-12 col-lg-6 offset-lg-3">
-        <form action="https://formsubmit.co/sandrafabrizi87@gmail.com" method="POST">
+    <div class="col-12 col-lg-6 offset-lg-3 py-2">
+        <form action="mailto:sandrafabrizi87@gmail.com" method="POST" enctype="text/plain">
             <div class="mb-3">
-                <label class="form-label" for="name">Nombre:</label>
-                <input class="form-control" id="name" name="name" placeholder="Ingrese nombre" type="text" required>
+                <input class="form-control" id="name" name="name" placeholder="Ingrese su nombre" type="text" required>
             </div>
             <div class="mb-3">
-                <label class="form-label" for="email">Email:</label>
-                <input class="form-control" id="email" name="email" placeholder="Ingrese correo" type="email" required>
+                <input class="form-control" id="email" name="email" placeholder="Ingrese su correo electrónico" type="email" required>
             </div>
             <div class="mb-3">
-                <label class="form-label" for="comments">Comentarios:</label>
-                <textarea rows="5" class="form-control" id="comments" name="comments" placeholder="Ingrese comentarios" required></textarea>
+                <textarea rows="5" class="form-control" id="comments" name="comments" placeholder="Ingrese sus comentarios" required></textarea>
             </div>
             <div class="mb-3">
                 <div class="d-grid gap-2">
-                    <input class="btn btn-cen bg-btn text-white" type="submit"/>
+                    <input  id="liveToastBtn" class="btn btn-cen bg-btn text-white" type="submit"/>
                 </div>
-                <!-- <input type="hidden" name="_next" value="http://127.0.0.1:5500/gracias.html"> -->
-                <input type="hidden" name="_subject" value="Comentarios Portfolio">
-                <input type="hidden" name="_autoresponse" value="¡Muchas gracias por contactarme! En breve estaré respondiendo su consulta. Saludos. Fabrizi Sandra.">
             </div>
         </form>
     </div>

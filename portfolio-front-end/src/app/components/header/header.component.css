@@ -1,5 +1,6 @@
 .navbar{
     background-color: var(--bg-navbar-color);
+    box-shadow: 0 0 3px var(--second-color);
     height: 65px;
     z-index: 1;
 }
@@ -25,9 +26,16 @@
 }
 
 .bg-color{
-    background-color:var(--second-color);
+    background-color:rgb(140, 129, 153);
 }
 
+.bg-btn{
+    background-color: var(--bg-btn);
+}
+
+.bg-btn:hover {
+    background-color: var(--bg-btn-hover);
+}
 
 /* Banner */
 .banner-image {

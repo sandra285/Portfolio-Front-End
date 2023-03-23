@@ -1,14 +1,9 @@
 :root {
     --first-color: white;
     --second-color: rgb(188, 176, 184);
-
-    /* --link-color: rgb(80, 158, 227);
-    --link-alpha-color: rgba(80, 158, 227, 0.75); */
-
-    /* --bg-color: rgb(245, 245, 245); */
     --bg-navbar-color: rgb(82, 41, 100);
     --bg-alpha-color: rgba(20, 25, 45, 0.75);
-    --bg-btn: rgb(129, 119, 133);;
+    --bg-btn: rgb(129, 119, 133);
     --bg-btn-hover: rgb(82, 41, 100);
     
 }
@@ -30,8 +25,6 @@ section[id] {
 }
 
 body {
-    /* background: url(assets/bg-pattern.png), #7b4397; */
-    /* background: url(assets/bg-pattern.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#f0bdf7)); */
     background: url(assets/bg-pattern.png), linear-gradient(to left, #3c2f43, #928099); 
 }
 

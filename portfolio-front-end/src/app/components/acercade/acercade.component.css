@@ -8,21 +8,19 @@
     border-radius: 50%;
     position: relative;
     top:-100px;
-  
+    filter: brightness(0.8);
 }
 
 .misDatos {
     border-radius: 25px; 
     position: relative;
     top:-100px;
-  
 }
 
 .acercaDe {
     border-radius: 25px;
     position: relative;
-    top:-100px;
-    
+    top:-100px;  
 }
 
 .bg-btn{

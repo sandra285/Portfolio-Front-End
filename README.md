@@ -1,27 +1,23 @@
 # PortfolioFrontEnd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+:star: Repositorio del Front-End de mi Proyecto Integrador de #YoProgramo
 
-## Development server
+Es una aplicación web full stack en la cual se implementó JWT con Spring Boot y Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Contiene mis datos personales, estudios cursados, experiencias laborales, habilidades duras y blandas y proyectos desarrollados.
 
-## Code scaffolding
+Para ejecutar la aplicación de manera local: 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1- Clonar el repositorio mediante
 
-## Build
+`git clone https://github.com/sandra285/Portfolio-Front-End.git`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2- Instalar dependencias:
 
-## Running unit tests
+`npm install`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3- Realizar la compilación `ng serve -o`
 
-## Running end-to-end tests
+4- Servidor activo con el backend para obtener los datos desde la base de datos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Link Repositorio Back-End: https://github.com/sandra285/Portfolio-Back-End.git

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { PortfolioService } from 'src/app/servicios/portfolio.service';
+import { Persona } from 'src/app/model/persona.model';
+import { PersonaService } from 'src/app/servicios/persona.service';
+import { TokenService } from 'src/app/servicios/token.service';
 
 @Component({
   selector: 'app-acercade',
@@ -8,14 +10,24 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 })
 export class AcercadeComponent implements OnInit {
 
-  miPortfolio: any;
+  persona: Persona = null;
 
-  constructor(private datosPortfolio: PortfolioService){}
+  constructor(private sPersona: PersonaService, private tokenService: TokenService) { }
 
-  ngOnInit(): void {
-    this.datosPortfolio.obtenerDatos().subscribe(data => {
-      // console.log(data);
-      this.miPortfolio = data;
-    });
+  isLogged = false;
+
+  ngOnInit(): void { 
+    this.cargarPersona();
+    //Validación
+    if(this.tokenService.getToken()){
+      this.isLogged = true;
+    } else {
+      this.isLogged = false;
+    }
+  }
+
+  //Carga de persona
+  cargarPersona(): void {
+    this.sPersona.detail(1).subscribe(data => {this.persona = data});
   }
 }

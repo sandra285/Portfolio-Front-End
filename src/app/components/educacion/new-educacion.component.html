@@ -1,0 +1,41 @@
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-login text-white">
+          <div class="card-body p-5 text-center">
+  
+            <div class="mb-md-5 mt-md-4 pb-5">
+
+              <h5 class="text-white my-4">
+                <i class="bi bi-plus-square-fill"></i> Nueva educación / formación
+              </h5>
+              <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+                <div class="form-outline form-white mb-4">
+                  <input type="text" class="form-control" name="nombreF" id="nombreF" placeholder="Nombre Institución" [(ngModel)]="nombreF" required autocomplete="off">
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <input type="text" class="form-control" name="tituloF" id="tituloF" placeholder="Título" [(ngModel)]="tituloF" required autocomplete="off">
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <input type="text" class="form-control" name="mesInicioF" id="mesInicioF" placeholder="Mes Inicio" [(ngModel)]="mesInicioF" required autocomplete="off">
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <input type="text" class="form-control" name="anioInicioF" id="anioInicioF" placeholder="Año Inicio" [(ngModel)]="anioInicioF" required autocomplete="off">
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <input type="text" class="form-control" name="mesFinF" id="mesFinF" placeholder="Mes Fin" [(ngModel)]="mesFinF" autocomplete="off">
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <input type="text" class="form-control" name="anioFinF" id="anioFinF" placeholder="Año Fin" [(ngModel)]="anioFinF" autocomplete="off">
+                </div>
+  
+                <button class="btn btn-outline-light px-5">Añadir</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

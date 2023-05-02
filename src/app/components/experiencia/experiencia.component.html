@@ -1,22 +1,36 @@
 <section class="container bg-color py-2" id="experiencia">
+    <div class="d-flex justify-content-end">
+        <h3 class="flex-grow-1 text-center my-2">✔️ Experiencia Laboral</h3>
     
-    <h3 class="text-center my-2">✔️ Experiencia</h3>
-    
-    <ul class="p-2">
-        <li *ngFor="let experiencia of experienciaLista">
-            <div class="d-flex justify-content-center">
-                <div class="col-3 col-md-4 ps-md-4 ps-lg-5 col-xl-5 align-self-center">
-                    <img [src]="experiencia.logoEmp" alt="Logo Empresa/Institución" class="img-fluid">
+        <!-- Para edición (Agregar experiencia) -->
+        <a routerLink="/nuevaexperiencia" *ngIf="isLogged">
+            <i class="bi bi-plus-square-fill btn btn-agregar"></i>
+        </a>
+    </div>
+    <ul classs="p-2" >
+        <li *ngFor="let experiencia of exp">
+            <div class="d-flex justify-content-end">
+                <a *ngIf="isLogged" routerLink="/editexperiencia/{{experiencia.id}}">
+                    <i class="bi bi-pencil-square btn btn-editar"></i>
+                </a>
+                <a *ngIf="isLogged" (click)="delete(experiencia.id)">
+                    <i class="bi bi-x-circle btn btn-eliminar"></i>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <div class="col-3 col-md-4 ps-md-4 ps-lg-5 align-self-center">
+                    <img src="../../../assets/work.png" class="img-fluid">
                 </div>
-                <div class="col-9 col-md-8 pt-md-3 col-xl-7 align-self-center">
-                    <p class="fs-5">{{ experiencia.nombreEmpresa }}</p>
-                    <p>{{ experiencia.areaEmpresa }}</p>
+                <div class="col-9 col-md-8 pt-md-3 align-self-center">
+                    <p class="fs-5">{{ experiencia.nombreE }}</p>
+                    <p>{{ experiencia.areaE }}</p>
                 </div>
             </div>
-            <div class="col-9 offset-3 col-md-8 offset-md-4 col-xl-7 offset-xl-5 mb-3">
-                <p class="txt-color">{{ experiencia.puesto }}</p>
-                <p><time class="txt-color">{{ experiencia.fechaInicio }}</time> - <time class="txt-color">{{ experiencia.fechaFin }}</time></p>
-                <p class="txt-color">{{ experiencia.tareas }}</p>
+           
+            <div class="col-9 offset-3 col-md-8 offset-md-4  mb-3">
+                <p class="txt-color">{{ experiencia.puestoE }}</p>
+                <p><time class="txt-color">{{ experiencia.mesInicioE }} {{ experiencia.anioInicioE }}</time> - <time class="txt-color">{{ experiencia.mesFinE }} {{ experiencia.anioFinE }}</time></p>
+                <p class="txt-color">{{ experiencia.descripcionE }}</p>
             </div>
         </li>
     </ul>

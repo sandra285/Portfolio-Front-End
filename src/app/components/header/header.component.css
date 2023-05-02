@@ -19,6 +19,7 @@
     width: 2rem;
     margin: 0 7px;
     opacity: 0.75; 
+    cursor: pointer;
 }
 
 .logosocial:hover {

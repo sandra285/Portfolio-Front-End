@@ -1,0 +1,58 @@
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-login text-white">
+          <div class="card-body p-5 text-center">
+  
+            <div class="mb-md-5 mt-md-4 pb-5">
+
+              <h5 class="text-white my-4">
+                <i class="bi bi-pencil-square"></i> Editar experiencia laboral
+              </h5>
+
+              <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-outline form-white mb-4">
+                  <label for="nombreE">Nombre Empresa:</label>
+                  <input type="text" class="form-control" name="nombreE" id="nombreE" [(ngModel)]="expLab.nombreE" required>
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <label for="areaE">Área:</label>
+                  <input type="text" class="form-control" name="areaE" id="areaE" [(ngModel)]="expLab.areaE" required>
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <label for="puestoE">Puesto:</label>
+                  <input type="text" class="form-control" name="puestoE" id="puestoE" [(ngModel)]="expLab.puestoE" required>
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <label for="mesInicioE">Mes Inicio:</label>
+                  <input type="text" class="form-control" name="mesInicioE" id="mesInicioE"  [(ngModel)]="expLab.mesInicioE" required>
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <label for="anioInicioE">Año Inicio:</label>
+                  <input type="text" class="form-control" name="anioInicioE" id="anioInicioE"  [(ngModel)]="expLab.anioInicioE" required>
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <label for="mesFinE">Mes Fin:</label>
+                  <input type="text" class="form-control" name="mesFinE" id="mesFinE" [(ngModel)]="expLab.mesFinE">
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <label for="anioFinE">Año Fin:</label>
+                  <input type="text" class="form-control" name="anioFinE" id="anioFinE" [(ngModel)]="expLab.anioFinE">
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <label for="descripcionE">Descripción de las tareas:</label>
+                  <input type="text" class="form-control" name="descripcionE" id="descripcionE"  [(ngModel)]="expLab.descripcionE" required>
+                </div>
+      
+                <button class="btn btn-outline-light px-5">Actualizar</button>
+              </form>
+  
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,50 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bg-login text-white">
+            <div class="card-body p-5 text-center">
+  
+              <div class="mb-md-5 mt-md-4 pb-5">
+
+                <h5 class="text-white my-4">
+                    <i class="bi bi-pencil-square"></i> Editar educación / formación
+                </h5>
+
+                <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                  <div class="form-outline form-white mb-4">
+                    <label for="nombreF">Nombre Institución:</label>
+                    <input type="text" class="form-control" name="nombreF" id="nombreF" [(ngModel)]="formac.nombreF" required>
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <label for="tituloF">Título:</label>
+                    <input type="text" class="form-control" name="tituloF" id="tituloF" [(ngModel)]="formac.tituloF" required>
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <label for="mesInicioF">Mes Inicio:</label>
+                    <input type="text" class="form-control" name="mesInicioF" id="mesInicioF"  [(ngModel)]="formac.mesInicioF" required>
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <label for="anioInicioF">Año Inicio:</label>
+                    <input type="text" class="form-control" name="anioInicioF" id="anioInicioF"  [(ngModel)]="formac.anioInicioF" required>
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <label for="mesFinF">Mes Fin:</label>
+                    <input type="text" class="form-control" name="mesFinF" id="mesFinF" [(ngModel)]="formac.mesFinF">
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <label for="anioFinF">Año Fin:</label>
+                    <input type="text" class="form-control" name="anioFinF" id="anioFinF" [(ngModel)]="formac.anioFinF">
+                  </div>
+        
+                  <button class="btn btn-outline-light px-5">Actualizar</button>
+                </form>
+  
+            </div>
+  
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </section>

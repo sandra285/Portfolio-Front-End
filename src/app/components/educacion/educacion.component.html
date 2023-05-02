@@ -1,18 +1,33 @@
 <section class="container bg-color py-2" id="educacion">
-    <h3 class="text-center my-2">✔️ Educación</h3>
-    <ul class="p-2">
-        <li *ngFor="let educacion of educacionLista">
+    <div class="d-flex justify-content-end">
+        <h3 class="flex-grow-1 text-center my-2">✔️ Educación</h3>
+    
+        <!-- Para edición (Agregar educación) -->
+        <a routerLink="/nuevaformacion" *ngIf="isLogged">
+            <i class="bi bi-plus-square-fill btn btn-agregar"></i>
+        </a>
+    </div>
+    <ul classs="p-2" >
+        <li *ngFor="let formacion of form">
+            <div class="d-flex justify-content-end">
+                <a *ngIf="isLogged" routerLink="/editformacion/{{formacion.id}}">
+                    <i class="bi bi-pencil-square btn btn-editar"></i>
+                </a>
+                <a *ngIf="isLogged" (click)="delete(formacion.id)">
+                    <i class="bi bi-x-circle btn btn-eliminar"></i>
+                </a>
+            </div>
             <div class="d-flex justify-content-center mb-3">
-                <div class="col-3 col-md-4 ps-md-4 ps-lg-5 col-xl-5 align-self-start">
-                    <img [src]="educacion.logoInstitucion" alt="Logo Institución" class="img-fluid">
+                <div class="col-3 col-md-4 ps-md-4 ps-lg-5 col-xl-5 align-self-center">
+                    <img src="../../../assets/formacion.png" alt="Logo Formación" class="img-fluid">
                 </div>
                 <div class="col-9 col-md-8 pt-md-3 col-xl-7 align-self-center">
-                    <p class="fs-5">{{ educacion.nombreInstitucion }}</p>
-                    <p class="txt-color">{{ educacion.titulo }}</p>
-                    <p><time class="txt-color">{{ educacion.fecha }}</time></p>
+                    <p class="fs-5">{{ formacion.nombreF }}</p>
+                    <p class="txt-color">{{ formacion.tituloF }}</p>
+                    <p><time class="txt-color">{{ formacion.mesInicioF }} {{ formacion.anioInicioF }}</time> - <time class="txt-color">{{ formacion.mesFinF }} {{ formacion.anioFinF }}</time></p>
                 </div>
             </div>
+           
         </li>
     </ul>
 </section>
-

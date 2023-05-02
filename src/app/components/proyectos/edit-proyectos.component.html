@@ -1,0 +1,50 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bg-login text-white">
+            <div class="card-body p-5 text-center">
+  
+              <div class="mb-md-5 mt-md-4 pb-5">
+
+                <h5 class="text-white my-4">
+                  <i class="bi bi-pencil-square"></i> Editar proyecto
+                </h5>
+
+                <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" class="form-control" name="nombreP" id="nombreP" placeholder="Nombre del proyecto" [(ngModel)]="proyectos.nombreP" required>
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" class="form-control" name="descripcionP" id="descripcionP" placeholder="Descripción del proyecto" [(ngModel)]="proyectos.descripcionP" required>
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" class="form-control" name="mesInicioP" id="mesInicioP" placeholder="Mes Inicio" [(ngModel)]="proyectos.mesInicioP" required>
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" class="form-control" name="anioInicioP" id="anioInicioP" placeholder="Año Inicio" [(ngModel)]="proyectos.anioInicioP" required>
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" class="form-control" name="mesFinP" id="mesFinP" placeholder="Mes Fin" [(ngModel)]="proyectos.mesFinP">
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" class="form-control" name="anioFinP" id="anioFinP" placeholder="Año Fin" [(ngModel)]="proyectos.anioFinP">
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" class="form-control" name="verP" id="verP" placeholder="URL de la imagen del proyecto" [(ngModel)]="proyectos.verP">
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" class="form-control" name="repoP" id="repoP" placeholder="URL Repositorio GitHub" [(ngModel)]="proyectos.repoP">
+                  </div>
+    
+                  <button class="btn btn-outline-light px-5">Actualizar</button>
+                </form>
+  
+            </div>
+  
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </section>

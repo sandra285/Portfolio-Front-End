@@ -30,7 +30,10 @@
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
-            ]
+            ],
+            "allowedCommonJsDependencies": [
+              "lodash"
+           ]
           },
           "configurations": {
             "production": {

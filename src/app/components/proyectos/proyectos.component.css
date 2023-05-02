@@ -9,7 +9,7 @@ article {
 }
 
 .card-img {
-   opacity: 0.3;
+   opacity: 0.25;
    min-height: 250px;
 }
 
@@ -29,8 +29,24 @@ h5:hover {
     background-color: var(--bg-btn-hover);
 }
 
-.img-modal {
-    width:115%;
+.btn-edicion {
+    font-size: 25px;
+}
+
+.btn-edicion:hover {
+    font-size: 28px;
+}
+
+.btn-agregar{
+    color:rgb(54, 106, 226);
+}
+
+.btn-editar {
+    color: rgb(6, 124, 6);
+}
+
+.btn-eliminar {
+    color: rgb(213, 21, 21);
 }
 
 /* Media queries */

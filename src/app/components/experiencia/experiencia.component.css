@@ -15,6 +15,34 @@ img:hover {
     opacity: 1;
 }
 
+.bg-btn{
+    background-color: var(--bg-btn);
+}
+
+.bg-btn:hover{
+    background-color: var(--bg-btn-hover);
+}
+
+.btn {
+    font-size: 25px;
+}
+
+.btn:hover {
+    font-size: 28px;
+}
+
+.btn-agregar{
+    color:rgb(54, 106, 226);
+}
+
+.btn-editar {
+    color: rgb(6, 124, 6);
+}
+
+.btn-eliminar {
+    color: rgb(213, 21, 21);
+}
+
 /* Media queries */
 
 @media (min-width: 768px){

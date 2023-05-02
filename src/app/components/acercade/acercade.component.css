@@ -4,7 +4,7 @@
 }
 
 #fotoperfil {
-    width: 35%; 
+    width: 50%; 
     border-radius: 50%;
     position: relative;
     top:-100px;
@@ -29,6 +29,15 @@
 
 .bg-btn:hover{
     background-color: var(--bg-btn-hover);
+}
+
+.btn-editar {
+    font-size: 25px;
+    color: rgb(6, 124, 6);
+}
+
+.btn-editar:hover {
+    font-size: 28px;
 }
 
 /* Media queries */

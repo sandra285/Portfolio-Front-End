@@ -8,7 +8,11 @@ import { Observable } from 'rxjs';
 })
 export class SHabilidadesService {
 
-  habURL = 'http://localhost:8080/habilidades/';
+  // Local
+  // habURL = 'http://localhost:8080/habilidades/';
+
+  // Producción
+  habURL = 'https://backend-sf.onrender.com/habilidades/';
 
   constructor(private httpClient: HttpClient) { }
 

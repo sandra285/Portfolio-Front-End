@@ -9,8 +9,12 @@ import { JwtDto } from '../model/jwt-dto';
   providedIn: 'root'
 })
 export class AuthService {
+  
+  // Local
+  // authURL = 'http://localhost:8080/auth/';
 
-  authURL = 'http://localhost:8080/auth/';
+  // Producción
+  authURL = 'https://backend-sf.onrender.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 

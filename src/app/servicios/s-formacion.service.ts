@@ -7,8 +7,11 @@ import { Formacion } from '../model/formacion';
   providedIn: 'root'
 })
 export class SFormacionService {
-  
-  formURL = 'http://localhost:8080/formacion/';
+  // Local
+  // formURL = 'http://localhost:8080/formacion/';
+
+  //Producción
+  formURL = 'https://backend-sf.onrender.com/formacion/';
 
   constructor(private httpClient: HttpClient) { }
 

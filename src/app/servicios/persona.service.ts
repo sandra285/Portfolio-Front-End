@@ -8,7 +8,11 @@ import { Persona } from '../model/persona.model';
 })
 export class PersonaService {
 
-  perURL = 'http://localhost:8080/personas/';
+  // Local
+  // perURL = 'http://localhost:8080/personas/';
+
+  // Produccion
+  perURL = 'https://backend-sf.onrender.com/personas/';
 
   constructor(private httpClient: HttpClient) { }
 

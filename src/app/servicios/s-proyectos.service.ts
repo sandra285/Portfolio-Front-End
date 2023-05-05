@@ -8,7 +8,11 @@ import { Observable } from 'rxjs';
 })
 export class SProyectosService {
 
-  proyURL = 'http://localhost:8080/proyectos/';
+  // Local
+  // proyURL = 'http://localhost:8080/proyectos/';
+
+  // Producción
+  proyURL = 'https://backend-sf.onrender.com/proyectos/';
 
   constructor(private httpClient: HttpClient) { }
 

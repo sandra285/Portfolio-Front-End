@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { LoginUsuario } from 'src/app/model/login-usuario';
 import { AuthService } from 'src/app/servicios/auth.service';
 import { TokenService } from 'src/app/servicios/token.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-login',
@@ -43,8 +44,14 @@ export class LoginComponent implements OnInit {
     }, err => {
       this.isLogged = false;
       this.isLogginFail = true;
-      this.errMjs = err.error.mensaje;
-      console.log(this.errMjs);
+      this.msgAlertError();
+    })
+  }
+
+  msgAlertError = () => {
+    Swal.fire({
+      icon:'error',
+      title: 'Usuario y/o contraseña incorrectos. Por favor, intente nuevamente.'
     })
   }
 }
